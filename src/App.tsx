@@ -11,7 +11,7 @@ import { default as PrintingTheReportFromCode } from './Printing and Exporting/P
 import { default as ExportingReportToPDF } from './Printing and Exporting/Exporting a Report to PDF';
 import { default as ExportingReportToHTML } from './Printing and Exporting/Exporting a Report to HTML';
 import { default as ExportingReportFromCodeWithChangingExportSettings } from './Printing and Exporting/Exporting a Report from Code with Changing Export Settings';
-import { default as ExportingManyFilesToSinglePDF } from './Working with Designer and Viewer Settings and Events/Exporting Many Files to Single PDF';
+import { default as ExportingManyFilesToSinglePDF } from './Printing and Exporting/Exporting Many Files to Single PDF';
 
 import { default as CreatingNewDataConnectionFromCode } from './Data Connection and Registration/Creating a new Data Connection from code';
 import { default as RegisteringDataFromCode } from './Data Connection and Registration/Registering Data from Code';
