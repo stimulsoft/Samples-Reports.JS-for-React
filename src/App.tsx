@@ -1,41 +1,41 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { default as LocalizingTheDesigner } from './Localizing the Designer';
-import { default as LocalizingTheViewer } from './Localizing the Viewer';
-import { default as GlobalizingReport } from './Globalizing Report';
+import { default as LocalizingTheDesigner } from './Localization and Globalization/Localizing the Designer';
+import { default as LocalizingTheViewer } from './Localization and Globalization/Localizing the Viewer';
+import { default as GlobalizingReport } from './Localization and Globalization/Globalizing Report';
 
-import { default as UsingCustomFont } from './Using a Custom Font';
-import { default as AddingFontToTheResource } from './Adding a Font to the Resource';
+import { default as UsingCustomFont } from './Fonts and Resources/Using a Custom Font';
+import { default as AddingFontToTheResource } from './Fonts and Resources/Adding a Font to the Resource';
 
-import { default as PrintingTheReportFromCode } from './Printing the Report from Code';
-import { default as ExportingReportToPDF } from './Exporting a Report to PDF';
-import { default as ExportingReportToHTML } from './Exporting a Report to HTML';
-import { default as ExportingReportFromCodeWithChangingExportSettings } from './Exporting a Report from Code with Changing Export Settings';
-import { default as ExportingManyFilesToSinglePDF } from './Exporting Many Files to Single PDF';
+import { default as PrintingTheReportFromCode } from './Printing and Exporting/Printing the Report from Code';
+import { default as ExportingReportToPDF } from './Printing and Exporting/Exporting a Report to PDF';
+import { default as ExportingReportToHTML } from './Printing and Exporting/Exporting a Report to HTML';
+import { default as ExportingReportFromCodeWithChangingExportSettings } from './Printing and Exporting/Exporting a Report from Code with Changing Export Settings';
+import { default as ExportingManyFilesToSinglePDF } from './Working with Designer and Viewer Settings and Events/Exporting Many Files to Single PDF';
 
-import { default as CreatingNewDataConnectionFromCode } from './Creating a new Data Connection from code';
-import { default as RegisteringDataFromCode } from './Registering Data from Code';
-import { default as UsingSqlDataSources } from './Using SQL Data Sources';
-import { default as UsingParametersInSqlQuery } from './Using Parameters in SQL Query';
-import { default as UsingCustomDataAdapter } from './Using a Custom Data Adapter';
-import { default as SupplyCustomHeadersForJsonDatabase } from './Supply Custom Headers for JSON Database';
+import { default as CreatingNewDataConnectionFromCode } from './Data Connection and Registration/Creating a new Data Connection from code';
+import { default as RegisteringDataFromCode } from './Data Connection and Registration/Registering Data from Code';
+import { default as UsingSqlDataSources } from './Data Connection and Registration/Using SQL Data Sources';
+import { default as UsingParametersInSqlQuery } from './Data Connection and Registration/Using Parameters in SQL Query';
+import { default as UsingCustomDataAdapter } from './Data Connection and Registration/Using a Custom Data Adapter';
+import { default as SupplyCustomHeadersForJsonDatabase } from './Data Connection and Registration/Supply Custom Headers for JSON Database';
 
-import { default as CustomizingTheDesigner } from './Customizing the Designer';
-import { default as ChangingTheDesignerTheme } from './Changing the Designer Theme';
-import { default as CustomizingTheViewer } from './Customizing the Viewer';
-import { default as ChangingTheViewerTheme } from './Changing the Viewer Theme';
-import { default as ShowingReportInTheViewerWithoutToolbar } from './Showing a Report in the Viewer without Toolbar';
-import { default as UsingDesignerEvents } from './Using Designer Events';
-import { default as UsingViewerEvents } from './Using Viewer Events';
-import { default as WorkingWithOnDesignAndOnExitEvents } from './Working with onDesign and onExit Events';
-import { default as UsingTheTwoViewerInTheOneProject } from './Using the two Viewer in the One Project';
-import { default as GetModifiedReportFromTheDesigner } from './Get a modified Report from the Designer';
-import { default as UsingTheRightToLeftModeInTheViewer } from './Using the Right-To-Left Mode in the Viewer';
+import { default as CustomizingTheDesigner } from './Working with Designer and Viewer Settings and Events/Customizing the Designer';
+import { default as ChangingTheDesignerTheme } from './Working with Designer and Viewer Settings and Events/Changing the Designer Theme';
+import { default as CustomizingTheViewer } from './Working with Designer and Viewer Settings and Events/Customizing the Viewer';
+import { default as ChangingTheViewerTheme } from './Working with Designer and Viewer Settings and Events/Changing the Viewer Theme';
+import { default as ShowingReportInTheViewerWithoutToolbar } from './Working with Designer and Viewer Settings and Events/Showing a Report in the Viewer without Toolbar';
+import { default as UsingDesignerEvents } from './Working with Designer and Viewer Settings and Events/Using Designer Events';
+import { default as UsingViewerEvents } from './Working with Designer and Viewer Settings and Events/Using Viewer Events';
+import { default as WorkingWithOnDesignAndOnExitEvents } from './Working with Designer and Viewer Settings and Events/Working with onDesign and onExit Events';
+import { default as UsingTheTwoViewerInTheOneProject } from './Working with Designer and Viewer Settings and Events/Using the two Viewer in the One Project';
+import { default as GetModifiedReportFromTheDesigner } from './Working with Designer and Viewer Settings and Events/Get a modified Report from the Designer';
+import { default as UsingTheRightToLeftModeInTheViewer } from './Working with Designer and Viewer Settings and Events/Using the Right-To-Left Mode in the Viewer';
 
-import { default as HowToActivateTheProduct } from './How to Activate the Product';
-import { default as RenderingReportFromCode } from './Rendering a Report from Code';
-import { default as UsingReportVariablesInCode } from './Using Report Variables in Code';
-import { default as CreatingReportAtRuntime } from './Creating Report at Runtime';
+import { default as HowToActivateTheProduct } from './Working with Dashboards and Advanced Features/How to Activate the Product';
+import { default as RenderingReportFromCode } from './Working with Dashboards and Advanced Features/Rendering a Report from Code';
+import { default as UsingReportVariablesInCode } from './Working with Dashboards and Advanced Features/Using Report Variables in Code';
+import { default as CreatingReportAtRuntime } from './Working with Dashboards and Advanced Features/Creating Report at Runtime';
 
 import ListSamples from './ListSamples';
 
