@@ -1,5 +1,6 @@
 import React from 'react';
 import { Stimulsoft } from 'stimulsoft-reports-js-react';
+import '../styles.css';
 
 async function saveReportPdf() {
     var report = new Stimulsoft.Report.StiReport();
@@ -19,9 +20,15 @@ async function saveReportPdf() {
 
 function App() {
     return (
-        <div>
-            <button onClick={saveReportPdf}>Export and Save PDF report to file</button>
+        <div className='container'>
+            <h4>This example shows how to export a report to a PDF file and adjust the export settings via code. Please, enter the password <b>123</b> to show report</h4>
+            <div className='container-button'>
+                <button onClick={saveReportPdf} className='button' title='Export Report to PDF File'>
+                    Export PDF
+                </button>
+            </div>
         </div>
+
     );
 }
 

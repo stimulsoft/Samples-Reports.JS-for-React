@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Viewer, Stimulsoft } from 'stimulsoft-reports-js-react/viewer';
+import '../styles.css';
+
 
 function App() {
     const [report, setReport] = useState<Stimulsoft.Report.StiReport>();
@@ -28,10 +30,14 @@ function App() {
     }
 
     return (
-        <div>
-            <button onClick={buttonXmlClick}>Register XML Data</button>
-            <button onClick={buttonJsonClick}>Register JSON Data</button>
-            <Viewer report={report} />
+        <div className='container'>
+            <div className='container-button'>
+                <button onClick={buttonXmlClick} className='button'>Register XML Data</button>
+                <button onClick={buttonJsonClick} className='button'>Register JSON Data</button>
+            </div>
+            <div>
+                <Viewer report={report} />
+            </div>
         </div>
     );
 }

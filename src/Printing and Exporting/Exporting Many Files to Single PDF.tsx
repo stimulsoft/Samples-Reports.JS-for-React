@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Stimulsoft } from 'stimulsoft-reports-js-react';
+import '../styles.css';
 
 async function exportPdf() {
     var report = new Stimulsoft.Report.StiReport();
@@ -22,9 +23,24 @@ async function exportPdf() {
 }
 
 function App() {
+    const [isLoading, setIsLoading] = useState(false)
+    
+    const handleClick = () => {
+        setIsLoading(true);
+        setTimeout(async () => {
+            await exportPdf();
+            setIsLoading(false);
+        }, 0);
+    } 
+
     return (
-        <div>
-            <button onClick={exportPdf}>Export PDF (about 400 pages)</button>
+        <div className='container'>
+            <h4>This sample demonstrates how to export a report to a PDF file and save it:</h4>
+            <div className='container-button'>
+                <button onClick={handleClick} disabled={isLoading} className='button' title='Export Report to PDF File'>
+                    {isLoading ? "Please, wait..." : "Export to PDF"}
+                </button>
+            </div>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Viewer, Stimulsoft } from 'stimulsoft-reports-js-react/viewer';
+import '../styles.css';
 
 function App() {
     const [selectedCountry, setSelectedCountry] = useState('en-US');
@@ -12,17 +13,24 @@ function App() {
     report.culture = selectedCountry;
 
     return (
-        <div>
-            <label style={{ fontSize: '14px' }}>
-                Select Country
-                <select value={selectedCountry} onChange={(e) => setSelectedCountry(e.target.value)}>
-                    <option value='en-US'>United States</option>
-                    <option value='de-DE'>Germany</option>
-                    <option value='ru-RU'>Russia</option>
+        <div className='container'>
+            <div className='container-control'>
+                <label className='label-globalization'>Select Language</label>
+                <select
+                    value={selectedCountry}
+                    onChange={(e) => setSelectedCountry(e.target.value)}
+                    className='select-globalization'
+                >
+                    <option value='en-US'>English</option>
+                    <option value='de-DE'>Deutsch</option>
+                    <option value='ru-RU'>Russian</option>
                 </select>
-            </label>
-            <Viewer key={selectedCountry} report={report} />
+            </div>
+            <div>
+                <Viewer key={selectedCountry} report={report} />
+            </div>
         </div>
+
     );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Stimulsoft } from 'stimulsoft-reports-js-react';
+import '../styles.css';
 
 async function saveReportHtml() {
     var report = new Stimulsoft.Report.StiReport();
@@ -13,9 +14,15 @@ async function saveReportHtml() {
 
 function App() {
     return (
-        <div>
-            <button onClick={saveReportHtml}>Export and Save HTML report to file</button>
+        <div className='container'>
+            <h4>This sample demonstrates how to export a report to an HTML file and save it:</h4>
+            <div className='container-button'>
+                <button onClick={saveReportHtml} className='button' title='Export Report to HTML File'>
+                    Export to HTML
+                </button>
+            </div>
         </div>
+
     );
 }
 
