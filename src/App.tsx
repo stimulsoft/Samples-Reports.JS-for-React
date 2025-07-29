@@ -32,10 +32,10 @@ import { default as UsingTheTwoViewerInTheOneProject } from './Working with Desi
 import { default as GetModifiedReportFromTheDesigner } from './Working with Designer and Viewer Settings and Events/Get a modified Report from the Designer';
 import { default as UsingTheRightToLeftModeInTheViewer } from './Working with Designer and Viewer Settings and Events/Using the Right-To-Left Mode in the Viewer';
 
-import { default as HowToActivateTheProduct } from './Working with Dashboards and Advanced Features/How to Activate the Product';
-import { default as RenderingReportFromCode } from './Working with Dashboards and Advanced Features/Rendering a Report from Code';
-import { default as UsingReportVariablesInCode } from './Working with Dashboards and Advanced Features/Using Report Variables in Code';
-import { default as CreatingReportAtRuntime } from './Working with Dashboards and Advanced Features/Creating Report at Runtime';
+import { default as HowToActivateTheProduct } from './Working with Reports and Advanced Features/How to Activate the Product';
+import { default as RenderingReportFromCode } from './Working with Reports and Advanced Features/Rendering a Report from Code';
+import { default as UsingReportVariablesInCode } from './Working with Reports and Advanced Features/Using Report Variables in Code';
+import { default as CreatingReportAtRuntime } from './Working with Reports and Advanced Features/Creating Report at Runtime';
 
 import ListSamples from './ListSamples';
 

@@ -41,10 +41,10 @@ This repository contains the source code of the examples of usage Stimulsoft Rep
 * [Using the Right-To-Left Mode in the Viewer](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Designer%20and%20Viewer%20Settings%20and%20Events/Using%20the%20Right-To-Left%20Mode%20in%20the%20Viewer.tsx)
 
 #### Working with Reports and Advanced Features
-* [How to Activate the Product](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Dashboards%20and%20Advanced%20Features/How%20to%20Activate%20the%20Product.tsx)
-* [Rendering a Report from Code](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Dashboards%20and%20Advanced%20Features/Rendering%20a%20Report%20from%20Code.tsx)
-* [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Dashboards%20and%20Advanced%20Features/Using%20Report%20Variables%20in%20Code.tsx)
-* [Creating Report at Runtime](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Dashboards%20and%20Advanced%20Features/Creating%20Report%20at%20Runtime.tsx)
+* [How to Activate the Product](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Reports%20and%20Advanced%20Features/How%20to%20Activate%20the%20Product.tsx)
+* [Rendering a Report from Code](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Reports%20and%20Advanced%20Features/Rendering%20a%20Report%20from%20Code.tsx)
+* [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Reports%20and%20Advanced%20Features/Using%20Report%20Variables%20in%20Code.tsx)
+* [Creating Report at Runtime](https://github.com/stimulsoft/Samples-Reports.JS-for-React/blob/main/src/Working%20with%20Reports%20and%20Advanced%20Features/Creating%20Report%20at%20Runtime.tsx)
 
 ## Running samples
 To run the examples, run the following commands in the console:
