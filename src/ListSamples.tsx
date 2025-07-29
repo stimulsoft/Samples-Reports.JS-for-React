@@ -100,7 +100,7 @@ function ListSamples() {
                     <NavLink to="/Using_the_Right-To-Left_Mode_in_the_Viewer">Using the Right-To-Left Mode in the Viewer</NavLink>
                 </li>
             </ul>
-            Rendering, Working with Reports, and Advanced Features
+            Working with Reports and Advanced Features
             <ul>
                 <li>
                     <NavLink to="/How_to_Activate_the_Product">How to Activate the Product</NavLink>
