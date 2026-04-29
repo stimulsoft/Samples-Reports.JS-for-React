@@ -8,9 +8,9 @@ function App() {
     async function renderReport() {
         await report.renderAsync2();
 
-        document.getElementById('message').innerText =
+        document.getElementById('message')!.innerText =
             'The report rendering is completed. Pages: ' + report.renderedPages.count;
-        document.getElementById('reportJson').innerText = report.saveDocumentToJsonString();
+        document.getElementById('reportJson')!.innerText = report.saveDocumentToJsonString();
     }
 
     return (
