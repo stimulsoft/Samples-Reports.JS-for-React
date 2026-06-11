@@ -5,6 +5,8 @@ import '../styles.css';
 var report: Stimulsoft.Report.StiReport;
 
 function printPdf_Click() {
+    window.Blob = Blob;
+    window.File = File;
     report.printToPdf();
 }
 

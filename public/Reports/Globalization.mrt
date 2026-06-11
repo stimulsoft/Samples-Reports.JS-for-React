@@ -148,33 +148,6 @@
       <Items isList="true" count="0" />
     </Item6>
     <Item7 Ref="8" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
-      <CultureName>ru</CultureName>
-      <Items isList="true" count="22">
-        <value>ReportAlias,Инвойс_x0020_продаж</value>
-        <value>ReportDescription,Этот_x0020_пример_x0020_демонстрирует_x002C__x0020_как_x0020_создать_x0020_инвойс_x0020_продаж</value>
-        <value>Text011.Text,Счет_x0020__x007B_InvoiceNo_x007D_</value>
-        <value>Text03.Text,Благодарим_x0020_за_x0020_сотрудничество</value>
-        <value>Text1.Text,Телефон_x0020__x007B_CompanyPhone_x007D_</value>
-        <value>Text112.Text,Скидка:</value>
-        <value>Text116.Text,Налог:</value>
-        <value>Text117.Text,Начислено:</value>
-        <value>Text12.Text,Эл.почта_x0020__x007B_CompanyEmail_x007D_</value>
-        <value>Text2.Text,Получатель:</value>
-        <value>Text21.Text,Адрес_x0020_доставки:</value>
-        <value>Text4.Text,Описание</value>
-        <value>Text41.Text,Количество</value>
-        <value>Text42.Text,Цена</value>
-        <value>Text43.Text,Всего</value>
-        <value>Text61.Text,ВСЕГО</value>
-        <value>Text7.Text,Всего:</value>
-        <value>Text80.Text,Продавец</value>
-        <value>Text81.Text,Заказ_x0020_на_x0020_покупку</value>
-        <value>Text82.Text,Способ_x0020_доставки</value>
-        <value>Variable.CompanyName,Наименование_x0020_организации</value>
-        <value>Variable.CompanyPaymentTerms,Срок_x0020_оплаты_x0020_30_x0020_дней</value>
-      </Items>
-    </Item7>
-    <Item8 Ref="9" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
       <CultureName>de</CultureName>
       <Items isList="true" count="37">
         <value>ReportAlias,Verkaufsrechnung</value>
@@ -214,6 +187,49 @@
         <value>Variable.CompanyName,Firmenname</value>
         <value>Variable.CompanyPaymentTerms,Die_x0020_Zahlung_x0020_ist_x0020_innerhalb_x0020_von_x0020_30_x0020_Tagen_x0020_fällig</value>
         <value>Variable.ShipToCountry,Frankreich</value>
+      </Items>
+    </Item7>
+    <Item8 Ref="9" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
+      <CultureName>pl-PL</CultureName>
+      <Items isList="true" count="38">
+        <value>Text70.Tag,RAZEM</value>
+        <value>Text82.Text,Metoda_x0020_wysyłki</value>
+        <value>Text116.Text,Podatek:</value>
+        <value>Text80.Text,Sprzedawca</value>
+        <value>Text41.Tag,NAGŁÓWEK</value>
+        <value>Text5.Tag,DANE</value>
+        <value>Text7.Text,Razem:</value>
+        <value>Text53.Tag,DANE</value>
+        <value>Text112.Text,Rabat:</value>
+        <value>Text81.Text,Zamówienie_x0020_zakupu</value>
+        <value>Text62.Tag,RAZEM</value>
+        <value>Text113.Tag,RAZEM</value>
+        <value>Text4.Text,Opis</value>
+        <value>ReportDescription,Ten_x0020_przykład_x0020_pokazuje_x002C__x0020_jak_x0020_utworzyć_x0020_fakturę_x0020_sprzedaży</value>
+        <value>Text4.Tag,NAGŁÓWEK</value>
+        <value>Variable.CompanyPaymentTerms,płatność_x0020_wymagana_x0020_w_x0020_ciągu_x0020_30_x0020_dni</value>
+        <value>Variable.CompanyAddress,Adres_x0020_firmy</value>
+        <value>Text52.Tag,DANE</value>
+        <value>Text03.Text,Dziękujemy_x0020_za_x0020_współpracę</value>
+        <value>ReportAlias,Faktura_x0020_sprzedaży</value>
+        <value>Text124.Text,_x007B_CompanyAddress_x007D__x002C_</value>
+        <value>Text21.Text,Wysłać_x0020_do:</value>
+        <value>Text41.Text,Ilość</value>
+        <value>Variable.ShipToCountry,Francja</value>
+        <value>Text61.Text,RAZEM</value>
+        <value>Text43.Tag,NAGŁÓWEK</value>
+        <value>Text50.Tag,DANE</value>
+        <value>Variable.CompanyName,Nazwa_x0020_firmy</value>
+        <value>Text42.Text,Cena</value>
+        <value>Text117.Text,Suma_x0020_częściowa:</value>
+        <value>Text1.Text,Telefon_x0020__x007B_CompanyPhone_x007D_</value>
+        <value>Text011.Text,Faktura_x0020__x007B_InvoiceNo_x007D_</value>
+        <value>Text114.Tag,RAZEM</value>
+        <value>Text12.Text,E-mail_x0020__x007B_CompanyEmail_x007D_</value>
+        <value>Text42.Tag,NAGŁÓWEK</value>
+        <value>Text05.Tag,RAZEM</value>
+        <value>Text2.Text,Odbiorca_x0020_faktury:</value>
+        <value>Text43.Text,Sumy</value>
       </Items>
     </Item8>
   </GlobalizationStrings>
@@ -1145,7 +1161,7 @@
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>0</NegativePattern>
                 <PositivePattern>0</PositivePattern>
-                <UseLocalSetting>False</UseLocalSetting>
+                <State>DecimalDigits</State>
               </TextFormat>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -1259,14 +1275,14 @@
   </ReferencedAssemblies>
   <ReportAlias>Sales Invoice</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>2/13/2025 10:03:18 AM</ReportChanged>
+  <ReportChanged>6/10/2026 2:21:11 PM</ReportChanged>
   <ReportCreated>5/19/2016 4:32:36 PM</ReportCreated>
   <ReportDescription>The sample demonstrates how to create the sales invoice</ReportDescription>
-  <ReportFile>C:\Stimulsoft\Stimulsoft.Reports.JS\npm\samples-react_ts\public\Globalization.mrt</ReportFile>
-  <ReportGuid>20ea6faa4dea4402ba666868c9d000fc</ReportGuid>
+  <ReportFile>C:\Users\JuliaPC\Downloads\GlobalizationReport.mrt</ReportFile>
+  <ReportGuid>f839d940d7704f2e848138997279dd0d</ReportGuid>
   <ReportName>Sales Invoice</ReportName>
   <ReportUnit>HundredthsOfInch</ReportUnit>
-  <ReportVersion>2024.2.5.0</ReportVersion>
+  <ReportVersion>2026.2.4.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
